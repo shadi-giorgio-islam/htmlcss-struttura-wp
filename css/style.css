@@ -8,6 +8,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
 }
 .clearfix::after{
   content: '';
@@ -116,6 +117,7 @@ aside.col-left p{
   color: white;
 }
 /* fine aside sinistra */
+/* inizio aside destra */
 aside.col-right{
   width:15%;
   height: 100%;
@@ -137,8 +139,10 @@ section.inner-aside{
   width:100%;
   background-color: white;
   height: 30%;
-  margin: 12px auto;
   border-radius: 5%;
+}
+section.inner-aside:not(:first-child){
+    margin: 12px auto;
 }
 section.inner-aside h3{
   color: rgb(77, 38, 18);
@@ -147,8 +151,37 @@ section.inner-aside h3{
 section.inner-aside p{
   padding: 20px;
 }
+/* fine aside destra */
+/* inizio footer */
 footer{
   height: 120px;
-  background-color: lightblue;
+  background-color: white;
+  color: grey;
   margin-top: 20px;
+  text-align: center;
 }
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: grey;
+  color: white;
+}
+.fa-instagram {
+  background: grey;
+  color: white;
+}
+.fa-reddit {
+  background: grey;
+  color: white;
+}
+/* fine footer */

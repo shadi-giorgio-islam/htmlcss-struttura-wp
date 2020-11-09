@@ -86,12 +86,34 @@ main{
   height: 500px;
   margin-top: 20px;
 }
+/* aside sinistra */
 aside.col-left{
   width:15%;
-  background-color: pink;
-  height: 70%;
+  background-color: white;
   margin-right: 20px;
+  border-radius: 5%;
 }
+aside.col-left p{
+  color: green;
+  padding: 10px;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+/* fine aside sinistra */
 aside.col-right{
   width:15%;
   background-color: pink;

@@ -83,7 +83,6 @@ nav{
 /* fine nav */
 /* fine header */
 main{
-  height: 500px;
   margin-top: 20px;
 }
 /* aside sinistra */
@@ -119,7 +118,6 @@ aside.col-left p{
 /* fine aside sinistra */
 aside.col-right{
   width:15%;
-  background-color: pink;
   height: 100%;
   margin-left: 20px;
 }
@@ -136,10 +134,18 @@ section.content p{
   padding: 30px;
 }
 section.inner-aside{
-  width:90%;
-  background-color: lightgrey;
+  width:100%;
+  background-color: white;
   height: 30%;
   margin: 12px auto;
+  border-radius: 5%;
+}
+section.inner-aside h3{
+  color: rgb(77, 38, 18);
+  padding: 10px 20px;
+}
+section.inner-aside p{
+  padding: 20px;
 }
 footer{
   height: 120px;
